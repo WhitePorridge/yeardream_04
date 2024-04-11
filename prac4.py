@@ -10,6 +10,7 @@ def read_file():
     try:
         f = open(file_name.txt, "r")
     except :
+        print(file_name + " not found")
         pass
 
 if __name__ == "__main__":
